@@ -1,0 +1,24 @@
+{
+  "name": "coquito-typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "ts-dev": "npx tsc --watch",
+    "dev": "node --watch build/server.js",
+    "start": "npm run build && node build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "coquito": "^0.0.26"
+  }
+}
