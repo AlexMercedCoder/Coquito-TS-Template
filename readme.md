@@ -3,6 +3,15 @@
 
 #### Basics
 Do your work in the `/src` folder, run the contents from the `/build` folder.
+
+#### Environment Variables
+
+Which file will be loaded is based on value of NODE_ENV.
+
+- undefined -> .env
+- production -> .production.env
+- development -> .development.env
+
 #### Scripts
 
 - `npm run build` compile typescript to build folder
