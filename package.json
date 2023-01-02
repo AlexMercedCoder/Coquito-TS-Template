@@ -23,6 +23,7 @@
   "dependencies": {
     "coquito": "^0.0.31",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "morgan": "^1.10.0"
   }
 }
